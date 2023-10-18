@@ -1,0 +1,133 @@
+/* font use from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+img{
+    vertical-align: middle;
+}
+
+/* common css end */
+
+/* header part start */
+
+.header_top{
+   height: 102px;
+    
+}
+.header_top .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .logo{
+ /* align-items: center; */
+ line-height: 102px;
+}
+.navbar{
+    text-align: right;
+}
+.navbar ul{
+    display: flex;
+}
+
+.navbar > ul li{
+   margin-right: 3rem;
+    
+}
+ul li a{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #333333;
+    letter-spacing: 3px;
+    position: relative;
+}
+
+ul li a::before{
+    position: absolute;
+    content: '';
+    height: 2px;    
+    width: 0;
+    left: -6px;
+    bottom: -9px;
+    background-color: #333333;
+    transition: .4s;
+}
+
+ul li a::after{
+    position: absolute;
+    content: '';
+    height: 2px;    
+    width: 0;
+    right: -6px;
+    top: -9px;    
+    background-color: #333333;
+    transition: .4s;
+}
+ul li a:hover::before{
+    width: 110%;
+}
+ul li a:hover::after{
+    width: 110%;
+}
+
+/* header part end */
+
+
+
+
+
+
+/* Responsive media query for All deviece */
+/* Mobile device */
+@media screen and (max-width: 576px) {
+    
+    .container, .navbar ul{
+        flex-direction: column;
+        text-align: center;
+        width: 80%;
+        
+        
+    }
+    .navbar ul{
+        margin-left: 50px;
+        gap: 25px;
+        margin-top: 30px;
+    }
+    .logo{
+        margin: 25px;
+    }
+}
+
+/* medium devices */
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    .container, .navbar ul{
+        flex-direction: column;
+        text-align: center;
+        width: 80%;
+}
+.navbar ul{
+    margin-left: 50px;
+    gap: 25px;
+    margin-top: 30px;
+}
+.logo{
+    margin: 25px;
+}
+}
