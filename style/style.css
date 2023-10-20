@@ -316,7 +316,7 @@ margin-left: 20px;
 }
 .Our_Project h1{
     font-size: 4rem;
-    color: #333333;
+    color: #BDBDBD;
     font-weight: 300; 
     margin-bottom: 20px; 
 }
@@ -345,15 +345,118 @@ margin-left: 20px;
     justify-content: space-between;
     align-items: center;
     margin-top: 25px;
+    margin-bottom: 40px;
     
+}
+.all_projects{
+        font-size: 12px;
+        font-weight: 400;
+        color:#ffffff;
+        padding: 05px 20px;
+        height: 70px;
+        width: 280px;
+        background-color: #333333;
+        text-align: center;
+        line-height: 70px;
+        letter-spacing: 2px;
+    }
+    
+/* our porject part end */
+/* Contact part start */
+.contact{
+    margin: 20px 0;
+}
+.contact h1{
+    font-size: 4rem;
+    color: #BDBDBD;
+    font-weight: 300; 
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.left input{
+    display: block;
+    margin-bottom: 15px;
+    height: 45px;
+    width: 390px;
+    background-color: #FBFBFB;
+
+}
+
+.Form{
+}
+.main .left{
+    height: 369px;
+    width: 749px;
+}
+.main .right{
+    height: 369px;
+    width: 750px;
+}
+.main .right{
+    margin-left: 20px;
+}
+.main .right img{
+    width: 100%;
+    height: 100%;
+}
+/* Contact part end */
+
+/* footer part start */
+.footer{
+    margin: 200px 0;
+    padding: 40px;
+    background-color: #FBFBFB;
+}
+
+.footer .main{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.main .twoo h5{
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+}
+.main .twoo ul li a{
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.main .threee h5{
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+}
+.threee .kkk{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+.threee .con{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+.threee .mail{
+    display: flex;
+    gap: 15px;
+}
+
+.main .fourr h5{
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+}
+
+.fourr .icon ul{
+    display: flex;
+justify-content: space-between;
 }
 
 
 
 
-/* our porject part end */
 
-
+/* footer part end */
 
 
 
