@@ -294,9 +294,64 @@ margin-left: 20px;
     margin-left: 20px;
 }
 
-
 /* focus part end */
+/* our porject part start */
 
+.Our_Project{
+    padding: 20px 0px;
+  
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left_next{
+    background-image: url(../images/Our\ Project\ 01.png);
+    padding: 25px 40px;
+    height: 255px;
+    width: 570px;
+    margin-right: 20px;
+}
+.Our_Project h1{
+    font-size: 4rem;
+    color: #333333;
+    font-weight: 300; 
+    margin-bottom: 20px; 
+}
+.left_next h1{
+    font-size: 4rem;
+    font-weight: 500;
+    color: #ffffff;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left_next h2{
+
+    font-size: 1.25rem;
+    font-weight: 400;
+    color:#ffffff;
+    height: 70px;
+    width: 221px;
+    text-align: center;
+    line-height: 70px;
+}
+.right_next_one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    
+}
+
+
+
+
+/* our porject part end */
 
 
 
